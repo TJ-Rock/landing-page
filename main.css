@@ -1,8 +1,33 @@
-div {
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight: 900;
 }
 
-.container {
-
+.headerr {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
+.logo {
+    font-size: 24PX;
+    color: #f9faf8;
+}
+.button {
+    color: #3882F6;  
+}
+
+body {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
