@@ -1,4 +1,4 @@
-.header {
+.hero {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -6,9 +6,14 @@
     font-weight: 900;
 }
 
-.headerr {
+.hero1 {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .logo {
@@ -30,4 +35,8 @@ body {
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
+}
+
+.cards {
+    
 }
