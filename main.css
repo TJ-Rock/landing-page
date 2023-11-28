@@ -6,12 +6,26 @@
     font-weight: 900;
 }
 
-.hero1 {
+
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    background-color: #1f2937;
+    
+}
+
+a { 
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header {
+#header {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -20,14 +34,18 @@
     font-size: 24PX;
     color: #f9faf8;
 }
-.button {
-    color: #3882F6;  
+button {
+    background-color: #3882F6;  
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
 }
 
 body {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    background-color: #1f2937;
 }
 
 .quote {
