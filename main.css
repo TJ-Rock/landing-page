@@ -1,4 +1,10 @@
-
+body {
+    font-size: 36px;
+    font-weight: 900;    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 
  ul {
@@ -7,7 +13,6 @@
     margin: 0;
     padding: 0;
     gap: 16px;
-
     
 }
 
@@ -16,7 +21,6 @@ a {
     color: #e5e7eb;
     background-color: #1f2937;
     text-decoration: none;
-    
 }
 
 .header {
@@ -29,11 +33,7 @@ a {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    
-    
-    
-}
+    }
 
 .logo {
     font-size: 24px;
@@ -53,13 +53,6 @@ button.signup {
   
 }
 
-body {
-    font-size: 36px;
-    font-weight: 900;    
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
 .quote {
     background-color: #e5e7eb;
