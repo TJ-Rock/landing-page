@@ -68,7 +68,6 @@ h2 {
 
 
 .left {
-  
     text-align: left;
     min-width: 0;
     padding: 20px;
@@ -114,7 +113,13 @@ button.signup {
   border-radius: 16px;
   padding: 16px;
   margin: 16px;
-  width: 300px;
+  width: 65%;
+  min-height: 200px;
+  border-color: #3882F6;
+  border-width: 5px;
+  text-align: center;
+  min-width: 0;
+  flex-wrap: wrap;
   
 }
 
@@ -123,8 +128,9 @@ button.signup {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20px;
+  
   margin-top: 10px;
+  gap: 10px;
 }
 
 .footer {
@@ -144,4 +150,60 @@ button.signup {
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+    max-width:  300px;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    
+}
+
+.container2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-left: 600px;
+}
+
+span {
+    background-color: #e5e7eb;
+    padding: 15px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.qtext {
+    font-size: 36px;
+    font-style: light italic;
+    font-weight: 100;
+}
+
+#qt {
+    font-size: 36px;
+    font-style: light italic;
+    font-weight: 900;
 }
