@@ -96,7 +96,6 @@ button.signup {
     color: white;
     border: 1px;
     align-self: start;
-  
 }
 
 
@@ -145,11 +144,14 @@ button.signup {
     padding: 20px;
 }
 
-.quote {
+span {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
 }
 
 .text {
@@ -169,12 +171,13 @@ button.signup {
 .container1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 1000px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    flex-wrap: wrap;
+   
     
 }
 
@@ -187,7 +190,7 @@ button.signup {
     margin-left: 600px;
 }
 
-span {
+.thor {
     background-color: #e5e7eb;
     padding: 15px;
     margin-top: 100px;
@@ -200,10 +203,66 @@ span {
     font-size: 36px;
     font-style: light italic;
     font-weight: 100;
+    max-width: 1000px;
 }
 
 #qt {
     font-size: 36px;
     font-style: light italic;
     font-weight: 900;
+}
+
+.bottom {
+    display: flex;
+    background-color: #3882F6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.left2 {
+    display: flex;
+    text-align: left;
+    min-width: 0;
+    padding: 10px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    flex-basis: 1500px;
+}
+
+.right2 {
+    display: flex;
+    flex-basis: 900px;
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btext {
+    font-size: medium;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.ctext {
+    font-weight: 200;
+    font-size: small;
+    color: #f9faf8;
+}
+
+
+
+button.sign {
+    background-color: #3882F6;  
+    color: white;
+    border: 1px;
+    border-color: #f9faf8;
+    font-weight: 200;
+    align-self: start;
+    border: 2px solid white;
 }
